@@ -1,0 +1,32 @@
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hero-section {
+    background: url('https://cdn.wallpapersafari.com/68/66/PLgQbl.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.hero-section h1, .hero-section p {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+footer img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #17a2b8;
+    text-decoration: none;
+}
